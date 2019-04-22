@@ -1,0 +1,29 @@
+@media screen and (min-width: 631px) {
+    .main-forms {
+        display: 'flex';
+        flex-wrap: 'wrap';
+        
+        background-color: '#4D2C3D';
+        padding: '5px';
+        border-radius: '5px';
+        justify-content: 'center'
+    }
+}
+@media screen and (max-width: 630px) {
+    .main-forms {
+        display: 'flex';
+        flex-wrap: 'wrap';
+        flex-direction: column;
+        
+        background-color: '#4D2C3D';
+        padding: '5px';
+        border-radius: '5px';
+        justify-content: 'center'
+    }
+}
+
+/* //Antique Tones:
+    //Bluebell: #155765
+    //Olive: #57652A
+    //Ornate: #AB9353
+    //Plum: #4D2C3D */
